@@ -1,14 +1,14 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
 const categorySchema = new mongoose.Schema({
     name : {
-       type : String,
-       default : ""
+        type : String,
+        default : ""
     },
     image : {
         type : String,
         default : ""
-    },   
+    }
 },{
     timestamps : true
 })
